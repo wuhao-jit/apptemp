@@ -1,7 +1,7 @@
 {
-  "appId": "",
-  "icon": "",
-  "name": "",
+  "appId": "{orgId}.{appName}",
+  "icon": "icon_a",
+  "name": "{appName}",
   "settings": {
     "defaultElement": {
       "defaultCache": "caches.Default",
@@ -10,6 +10,6 @@
       "defaultStorage": "storages.Default"
     }
   },
-  "theme": "",
-  "title": ""
+  "theme": "#3d65fd",
+  "title": "{appName}"
 }

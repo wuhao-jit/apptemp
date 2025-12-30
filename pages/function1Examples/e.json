@@ -1,0 +1,8 @@
+{
+  "title": "Example of a page for Feature 1",
+  "type": "pages.GridPageType",
+  "frontBundleEntry": "./index.ts",
+  "platform": "PC",
+  "outputName": "index",
+  "icon": "bank-card"
+}

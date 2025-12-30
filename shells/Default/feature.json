@@ -1,0 +1,13 @@
+{
+    "menus": [
+        {
+            "name": "function1Examples",
+            "title": "Function 1 (Example)",
+            "nodeType": "menu",
+            "page": "pages.function1Examples",
+            "icon": "bank-card",
+            "iconColor": "default",
+            "mobilePage": "pages.function1Examples_mobile"
+        }
+    ]
+}

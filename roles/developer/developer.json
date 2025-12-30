@@ -1,0 +1,7 @@
+{
+  "apiPerm": {},
+  "apiPermSwitch": 0,
+  "shellPerm": {
+    "shells.Ide": "all"
+  }
+}

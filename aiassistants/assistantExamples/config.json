@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "start": {
+            "id": "start",
+            "type": "start",
+            "title": "Start",
+            "position": {
+                "x": 30,
+                "y": 20.2265625
+            }
+        },
+        "router_BArzRe": {
+            "id": "router_BArzRe",
+            "type": "router",
+            "title": "Router",
+            "position": {
+                "x": 321.5,
+                "y": 20.2265625
+            },
+            "llmElement": "llms.Default",
+            "llmConfig": {
+                "model": "qwen-max-latest"
+            }
+        },
+        "aiagent_lbNEkO": {
+            "id": "aiagent_lbNEkO",
+            "type": "aiagent",
+            "title": "AI Agent",
+            "position": {
+                "x": 650.5,
+                "y": 20.2265625
+            },
+            "agent": "aiagents.agentExamples",
+            "triggerEvent": 1,
+            "beforeNodeRunEventOutput": []
+        }
+    },
+    "edges": {
+        "start-right@router_BArzRe-left": {
+            "sourceNode": "start",
+            "targetNode": "router_BArzRe",
+            "sourcePort": "start-right",
+            "targetPort": "router_BArzRe-left",
+            "argMapping": {
+                "user_input": "start.userInput"
+            },
+            "id": "start-right@router_BArzRe-left"
+        },
+        "router_BArzRe-right@aiagent_lbNEkO-left": {
+            "sourceNode": "router_BArzRe",
+            "targetNode": "aiagent_lbNEkO",
+            "sourcePort": "router_BArzRe-right",
+            "targetPort": "aiagent_lbNEkO-left",
+            "argMapping": {
+                "user_input": "start.userInput"
+            },
+            "id": "router_BArzRe-right@aiagent_lbNEkO-left"
+        }
+    }
+}

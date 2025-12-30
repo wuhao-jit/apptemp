@@ -1,0 +1,8 @@
+{
+  "allowJoin": 1,
+  "backendBundleEntry": ".",
+  "frontBundleEntry": "./Default.json",
+  "refSpace": false,
+  "title": "Default Organization",
+  "type": "corps.NormalType"
+}

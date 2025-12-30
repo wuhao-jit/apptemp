@@ -1,0 +1,20 @@
+{
+    "title": "agent (example)",
+    "type": "aiagents.ReActType",
+    "backendBundleEntry": ".",
+    "inputArgs": [
+        {
+            "name": "user_input",
+            "dataType": "Stext",
+            "title": "User Input"
+        }
+    ],
+    "outputArgs": [
+        {
+            "name": "output",
+            "dataType": "Ltext",
+            "title": "Output Data"
+        }
+    ],
+    "description": "It has the ability to add, delete, modify, and query data."
+}

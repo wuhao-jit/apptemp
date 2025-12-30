@@ -1,0 +1,6 @@
+{
+  "backendBundleEntry": ".",
+  "frontBundleEntry": "./Default.json",
+  "title": "Default Storage",
+  "type": "storages.DiskType"
+}

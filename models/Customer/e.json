@@ -1,0 +1,6 @@
+{
+  "title": "Customer",
+  "type": "models.NormalType",
+  "backendBundleEntry": ".",
+  "db": "databases.Default"
+}

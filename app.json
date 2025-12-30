@@ -1,0 +1,15 @@
+{
+  "appId": "",
+  "icon": "",
+  "name": "",
+  "settings": {
+    "defaultElement": {
+      "defaultCache": "caches.Default",
+      "defaultDatabase": "databases.Default",
+      "defaultShell": "shells.Default",
+      "defaultStorage": "storages.Default"
+    }
+  },
+  "theme": "",
+  "title": ""
+}

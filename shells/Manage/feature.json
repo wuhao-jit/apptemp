@@ -1,0 +1,25 @@
+{
+  "menus": [
+    {
+      "icon": "IDErenwu",
+      "name": "taskTempl",
+      "nodeType": "menu",
+      "page": "pages.TaskTempl",
+      "title": "Task template"
+    },
+    {
+      "icon": "setting-two",
+      "name": "permManage",
+      "nodeType": "menu",
+      "page": "pages.PermManage",
+      "title": "Permission management"
+    },
+    {
+      "icon": "IDEshenpi",
+      "name": "workflowManage",
+      "nodeType": "menu",
+      "page": "workflows.pages.WorkflowManage",
+      "title": "Approval process"
+    }
+  ]
+}

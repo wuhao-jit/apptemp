@@ -1,0 +1,11 @@
+{
+  "backendBundleEntry": ".",
+  "bizPageMode": true,
+  "default": true,
+  "frontBundleEntry": "./feature.json",
+  "title": "User Portal",
+  "sort": 1,
+  "type": "shells.DefaultType",
+  "hideApply": true,
+  "hideTodo": true
+}

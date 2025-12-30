@@ -1,0 +1,17 @@
+{
+  "entries": {
+    "Default role": "默认角色",
+    "Default role group": "默认角色组",
+    "Default Storage": "默认磁盘存储",
+    "User Portal": "使用者门户",
+    "Task template": "任务模板",
+    "Permission management": "权限管理",
+    "Approval process": "审批流程",
+    "Manager Portal": "管理者门户",
+    "Developer": "开发者",
+    "Anonymous": "匿名用户",
+    "Administrator": "管理员",
+    "Default Organization": "默认组织架构",
+    "Account password": "账号密码"
+}
+}

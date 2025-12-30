@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@emotion/react": "11.13.3",
+    "ahooks": "3.7.8",
+    "antd": "5.24.0",
+    "antd-mobile": "5.33.0",
+    "dayjs": "1.11.11",
+    "jit": "https://jit-front.oss-cn-hangzhou.aliyuncs.com/pkg/jit@latest.tgz",
+    "jit-builder": "https://jit-front.oss-cn-hangzhou.aliyuncs.com/pkg/jit-builder@latest.tgz",
+    "jit-ui": "https://jit-front.oss-cn-hangzhou.aliyuncs.com/pkg/jit-ui@latest.tgz",
+    "jit-widgets": "https://jit-front.oss-cn-hangzhou.aliyuncs.com/pkg/jit-widgets@latest.tgz",
+    "lodash-es": "4.17.21",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "name": "{{name}}",
+  "scripts": {
+    "build": "jit-builder build -o",
+    "check": "tsc --noEmit true --emitDeclarationOnly false",
+    "depends": "jit-builder depends",
+    "dev": "jit-builder dev"
+  },
+  "version": "0.0.0"
+}

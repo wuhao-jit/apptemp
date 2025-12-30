@@ -1,0 +1,6 @@
+{
+    "title": "Built-in Database",
+    "backendBundleEntry": ".",
+    "type": "databases.BuiltinsType",
+    "variables": []
+}

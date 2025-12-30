@@ -1,0 +1,145 @@
+{
+    "description": "It has the ability to add, delete, modify, and query data.",
+    "llmElement": "llms.Default",
+    "verbose": false,
+    "tools": [
+        {
+            "type": "model",
+            "name": "models.Customer",
+            "enableFunctionList": {
+                "create": {
+                    "preEvent": {
+                        "withData": true
+                    },
+                    "postEvent": {
+                        "withData": true
+                    },
+                    "humanInterrupt": false
+                },
+                "createOrUpdateMany": {
+                    "preEvent": {
+                        "withData": true
+                    },
+                    "postEvent": {
+                        "withData": true
+                    },
+                    "humanInterrupt": false
+                },
+                "get": {
+                    "preEvent": {
+                        "withData": true
+                    },
+                    "postEvent": {
+                        "withData": true
+                    },
+                    "humanInterrupt": false
+                },
+                "query": {
+                    "preEvent": {
+                        "withData": true
+                    },
+                    "postEvent": {
+                        "withData": true
+                    },
+                    "humanInterrupt": false
+                },
+                "groupBy": {
+                    "preEvent": {
+                        "withData": true
+                    },
+                    "postEvent": {
+                        "withData": true
+                    },
+                    "humanInterrupt": false
+                },
+                "updateByFilter": {
+                    "preEvent": {
+                        "withData": true
+                    },
+                    "postEvent": {
+                        "withData": true
+                    },
+                    "humanInterrupt": false
+                },
+                "updateByPK": {
+                    "preEvent": {
+                        "withData": true
+                    },
+                    "postEvent": {
+                        "withData": true
+                    },
+                    "humanInterrupt": false
+                },
+                "deleteByFilter": {
+                    "preEvent": {
+                        "withData": true
+                    },
+                    "postEvent": {
+                        "withData": true
+                    },
+                    "humanInterrupt": false
+                },
+                "deleteByPK": {
+                    "preEvent": {
+                        "withData": true
+                    },
+                    "postEvent": {
+                        "withData": true
+                    },
+                    "humanInterrupt": false
+                },
+                "updateOrAdd": {
+                    "preEvent": {
+                        "withData": true
+                    },
+                    "postEvent": {
+                        "withData": true
+                    },
+                    "humanInterrupt": false
+                },
+                "aggregate": {
+                    "preEvent": {
+                        "withData": true
+                    },
+                    "postEvent": {
+                        "withData": true
+                    },
+                    "humanInterrupt": false
+                },
+                "chainExecute": {
+                    "preEvent": {
+                        "withData": true
+                    },
+                    "postEvent": {
+                        "withData": true
+                    },
+                    "humanInterrupt": false
+                },
+                "resetModelData": {
+                    "preEvent": {
+                        "withData": true
+                    },
+                    "postEvent": {
+                        "withData": true
+                    },
+                    "humanInterrupt": false
+                },
+                "insertUpdateImport": {
+                    "preEvent": {
+                        "withData": true
+                    },
+                    "postEvent": {
+                        "withData": true
+                    },
+                    "humanInterrupt": false
+                }
+            }
+        }
+    ],
+    "knowledgeRepo": [],
+    "llmConfig": {
+        "model": "qwen-max-latest"
+    },
+    "subAgents": [],
+    "outputMode": "md"
+}

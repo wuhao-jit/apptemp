@@ -1,0 +1,6 @@
+{
+  "backendBundleEntry": ".",
+  "frontBundleEntry": "./developer.json",
+  "title": "Developer",
+  "type": "roles.NormalType"
+}

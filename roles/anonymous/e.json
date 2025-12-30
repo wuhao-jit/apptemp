@@ -1,0 +1,6 @@
+{
+  "backendBundleEntry": ".",
+  "frontBundleEntry": "./anonymous.json",
+  "title": "Anonymous",
+  "type": "roles.NormalType"
+}

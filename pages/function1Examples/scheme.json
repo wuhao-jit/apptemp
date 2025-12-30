@@ -1,0 +1,809 @@
+{
+    "layout": [
+        {
+            "i": "Table1",
+            "x": 0,
+            "y": 0,
+            "w": 48,
+            "h": 30
+        }
+    ],
+    "componentList": [
+        {
+            "fullName": "components.Table",
+            "type": "components.Table",
+            "name": "Table1",
+            "title": "Table 1",
+            "config": {
+                "requireElements": [
+                    {
+                        "title": "Table Data Model",
+                        "type": "models.Meta",
+                        "name": "models.Customer",
+                        "filter": "",
+                        "orderBy": ""
+                    }
+                ],
+                "fieldIdList": [
+                    "id",
+                    "customerName",
+                    "email",
+                    "companyName",
+                    "industry",
+                    "customerType",
+                    "status",
+                    "creditLimit",
+                    "annualRevenue",
+                    "employeeCount",
+                    "taxId",
+                    "contactPerson",
+                    "website",
+                    "country",
+                    "city",
+                    "postalCode",
+                    "registrationDate",
+                    "notes",
+                    "createdBy",
+                    "createdAt",
+                    "updatedAt"
+                ],
+                "defaultRender": true,
+                "level": 2,
+                "toolbarLeft": [
+                    {
+                        "id": "symfQq",
+                        "hideTitle": false,
+                        "name": "Data Entry",
+                        "icon": "plus",
+                        "type": "primary",
+                        "width": 78.5625,
+                        "height": 32
+                    }
+                ],
+                "actionBtn": [
+                    {
+                        "id": "nGDLRP",
+                        "hideTitle": false,
+                        "name": "edit",
+                        "icon": "edit",
+                        "type": "link",
+                        "width": 78.5625,
+                        "height": 32
+                    },
+                    {
+                        "id": "jWNGEF",
+                        "hideTitle": false,
+                        "name": "delete",
+                        "icon": "delete",
+                        "type": "link",
+                        "themeColor": "#d20135",
+                        "width": 78.5625,
+                        "height": 32
+                    }
+                ]
+            },
+            "showTitle": false
+        },
+        {
+            "fullName": "components.Modal",
+            "type": "components.Modal",
+            "name": "Modal2",
+            "title": "Data Entry",
+            "config": {
+                "requireElements": [],
+                "size": "big",
+                "type": "modal",
+                "position": "page",
+                "maskClosable": false,
+                "showCloseControl": true,
+                "bottomButtonList": [],
+                "bottomButtonAlign": "center",
+                "layout": [
+                    {
+                        "i": "Form3",
+                        "x": 0,
+                        "y": 0,
+                        "w": 48,
+                        "h": 30
+                    }
+                ]
+            },
+            "showTitle": true
+        },
+        {
+            "fullName": "components.Form",
+            "type": "components.Form",
+            "name": "Form3",
+            "title": "Data Entry",
+            "config": {
+                "requireElements": [
+                    {
+                        "name": "models.Customer",
+                        "filter": "",
+                        "orderBy": [],
+                        "title": "xx Model",
+                        "type": "models.Meta"
+                    }
+                ],
+                "isSelectAllField": true,
+                "changedFieldList": [
+                    "id",
+                    "customerName",
+                    "email",
+                    "companyName",
+                    "industry",
+                    "customerType",
+                    "status",
+                    "creditLimit",
+                    "annualRevenue",
+                    "employeeCount",
+                    "taxId",
+                    "contactPerson",
+                    "country",
+                    "city",
+                    "postalCode",
+                    "registrationDate",
+                    "notes",
+                    "createdBy",
+                    "createdAt",
+                    "updatedAt"
+                ],
+                "componentDict": {
+                    "id": {
+                        "key": "id",
+                        "type": "field",
+                        "name": "id",
+                        "dataType": "AutoInt",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "readonly",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 0
+                    },
+                    "customerName": {
+                        "key": "customerName",
+                        "type": "field",
+                        "name": "customerName",
+                        "dataType": "Stext",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 1
+                    },
+                    "email": {
+                        "key": "email",
+                        "type": "field",
+                        "name": "email",
+                        "dataType": "Stext",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 2
+                    },
+                    "companyName": {
+                        "key": "companyName",
+                        "type": "field",
+                        "name": "companyName",
+                        "dataType": "Stext",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 3
+                    },
+                    "industry": {
+                        "key": "industry",
+                        "type": "field",
+                        "name": "industry",
+                        "dataType": "Dropdown",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 4,
+                        "optionDisPlay": "default"
+                    },
+                    "customerType": {
+                        "key": "customerType",
+                        "type": "field",
+                        "name": "customerType",
+                        "dataType": "Radio",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 5,
+                        "optionDisPlay": "default"
+                    },
+                    "status": {
+                        "key": "status",
+                        "type": "field",
+                        "name": "status",
+                        "dataType": "Dropdown",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 6,
+                        "optionDisPlay": "default"
+                    },
+                    "creditLimit": {
+                        "key": "creditLimit",
+                        "type": "field",
+                        "name": "creditLimit",
+                        "dataType": "Money",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 7
+                    },
+                    "annualRevenue": {
+                        "key": "annualRevenue",
+                        "type": "field",
+                        "name": "annualRevenue",
+                        "dataType": "Money",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 8
+                    },
+                    "employeeCount": {
+                        "key": "employeeCount",
+                        "type": "field",
+                        "name": "employeeCount",
+                        "dataType": "Numeric",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 9
+                    },
+                    "taxId": {
+                        "key": "taxId",
+                        "type": "field",
+                        "name": "taxId",
+                        "dataType": "Stext",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 10
+                    },
+                    "contactPerson": {
+                        "key": "contactPerson",
+                        "type": "field",
+                        "name": "contactPerson",
+                        "dataType": "Stext",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 11
+                    },
+                    "country": {
+                        "key": "country",
+                        "type": "field",
+                        "name": "country",
+                        "dataType": "Dropdown",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 12,
+                        "optionDisPlay": "default"
+                    },
+                    "city": {
+                        "key": "city",
+                        "type": "field",
+                        "name": "city",
+                        "dataType": "Stext",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 13
+                    },
+                    "postalCode": {
+                        "key": "postalCode",
+                        "type": "field",
+                        "name": "postalCode",
+                        "dataType": "Stext",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 14
+                    },
+                    "registrationDate": {
+                        "key": "registrationDate",
+                        "type": "field",
+                        "name": "registrationDate",
+                        "dataType": "Date",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 15
+                    },
+                    "notes": {
+                        "key": "notes",
+                        "type": "field",
+                        "name": "notes",
+                        "dataType": "Ltext",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "editable",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 16
+                    },
+                    "createdBy": {
+                        "key": "createdBy",
+                        "type": "field",
+                        "name": "createdBy",
+                        "dataType": "Member",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "readonly",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 17
+                    },
+                    "createdAt": {
+                        "key": "createdAt",
+                        "type": "field",
+                        "name": "createdAt",
+                        "dataType": "Datetime",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "readonly",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 18
+                    },
+                    "updatedAt": {
+                        "key": "updatedAt",
+                        "type": "field",
+                        "name": "updatedAt",
+                        "dataType": "Datetime",
+                        "title": "",
+                        "visibleMode": "shown",
+                        "editMode": "readonly",
+                        "showTitle": true,
+                        "isRequired": false,
+                        "descDisplayMode": "bottom",
+                        "index": 19
+                    }
+                },
+                "layoutDict": {
+                    "id": {
+                        "key": "id",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 0,
+                            "y": 0,
+                            "i": "id",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "customerName": {
+                        "key": "customerName",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 60,
+                            "y": 0,
+                            "i": "customerName",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "email": {
+                        "key": "email",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 0,
+                            "y": 2,
+                            "i": "email",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "companyName": {
+                        "key": "companyName",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 60,
+                            "y": 2,
+                            "i": "companyName",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "industry": {
+                        "key": "industry",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 0,
+                            "y": 4,
+                            "i": "industry",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "customerType": {
+                        "key": "customerType",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 60,
+                            "y": 4,
+                            "i": "customerType",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "status": {
+                        "key": "status",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 0,
+                            "y": 6,
+                            "i": "status",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "creditLimit": {
+                        "key": "creditLimit",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 60,
+                            "y": 6,
+                            "i": "creditLimit",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "annualRevenue": {
+                        "key": "annualRevenue",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 0,
+                            "y": 8,
+                            "i": "annualRevenue",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "employeeCount": {
+                        "key": "employeeCount",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 60,
+                            "y": 8,
+                            "i": "employeeCount",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "taxId": {
+                        "key": "taxId",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 0,
+                            "y": 10,
+                            "i": "taxId",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "contactPerson": {
+                        "key": "contactPerson",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 60,
+                            "y": 10,
+                            "i": "contactPerson",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "country": {
+                        "key": "country",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 0,
+                            "y": 12,
+                            "i": "country",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "city": {
+                        "key": "city",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 60,
+                            "y": 12,
+                            "i": "city",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "postalCode": {
+                        "key": "postalCode",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 0,
+                            "y": 14,
+                            "i": "postalCode",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "registrationDate": {
+                        "key": "registrationDate",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 60,
+                            "y": 14,
+                            "i": "registrationDate",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "notes": {
+                        "key": "notes",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 3,
+                            "x": 0,
+                            "y": 16,
+                            "i": "notes",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "createdBy": {
+                        "key": "createdBy",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 3,
+                            "x": 60,
+                            "y": 16,
+                            "i": "createdBy",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "createdAt": {
+                        "key": "createdAt",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 0,
+                            "y": 19,
+                            "i": "createdAt",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    },
+                    "updatedAt": {
+                        "key": "updatedAt",
+                        "pos": "mid",
+                        "layout": {
+                            "w": 60,
+                            "h": 2,
+                            "x": 60,
+                            "y": 19,
+                            "i": "updatedAt",
+                            "minH": 1,
+                            "moved": false,
+                            "static": false,
+                            "isResizable": true,
+                            "resizeHandles": [
+                                "s",
+                                "e"
+                            ]
+                        }
+                    }
+                }
+            },
+            "showTitle": false
+        }
+    ],
+    "autoIncrementId": 4,
+    "aiConfig": {
+        "useAi": 1,
+        "aiAssistant": "aiassistants.assistantExamples",
+        "welcomeMessage": "This is a default assistant (example) I created, capable of performing data creation, deletion, modification, and retrieval. You can tell me your data management needs, and I will execute them.\nIt includes a built-in demo agent. Developers can modify the agent's prompts, configure tools, and adjust input/output as needed. Developers can also create other new Assistants and agents."
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "backendBundleEntry": ".",
+  "bizPageMode": true,
+  "frontBundleEntry": "./feature.json",
+  "hideApply": true,
+  "hideQuickCreate": true,
+  "hideTodo": true,
+  "title": "Manager Portal",
+  "sort": 100,
+  "type": "shells.DefaultType"
+}

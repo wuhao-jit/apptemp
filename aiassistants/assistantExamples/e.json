@@ -1,0 +1,9 @@
+{
+    "type": "aiassistants.NormalType",
+    "title": "Assistant (example)",
+    "path": "aiassistants",
+    "backendBundleEntry": ".",
+    "frontBundleEntry": "./config.json",
+    "needLogin": true,
+    "inputArgs": []
+}

@@ -1,0 +1,5 @@
+{
+  "frontBundleEntry": "./languages.json",
+  "title": "English",
+  "type": "languages.NormalType"
+}

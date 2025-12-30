@@ -1,0 +1,5 @@
+{
+  "frontBundleEntry": "./languages.json",
+  "title": "简体中文",
+  "type": "languages.NormalType"
+}

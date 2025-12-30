@@ -1,0 +1,8 @@
+{
+  "allowRegister": 1,
+  "backendBundleEntry": ".",
+  "default": 1,
+  "frontBundleEntry": "./Default.json",
+  "title": "Account password",
+  "type": "auths.loginTypes.PasswordType"
+}

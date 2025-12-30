@@ -1,0 +1,6 @@
+{
+  "backendBundleEntry": ".",
+  "frontBundleEntry": "./admin.json",
+  "title": "Administrator",
+  "type": "roles.NormalType"
+}
